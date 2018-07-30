@@ -89,7 +89,7 @@ function prepareColors() {
 
                 // If color choice is incorrect, status message is updated and color element becomes transparent
                 else {
-                    messageDisplay.textContent = "Try again!";
+                    messageDisplay.textContent = "Try again.";
                     this.style.backgroundColor = "transparent";
                 }
             }
