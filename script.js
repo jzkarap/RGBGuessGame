@@ -54,8 +54,7 @@ function createColorElements() {
     }
 
     // Creates a true array object out of our nodelist of the divs within div#container.
-    // This initializes colorChoices with a length of 10 (10 is the current numberOfColors -- 
-    // that's the amount that are generated on medium difficulty, and the game starts on medium)
+    // (This initializes 15 possible elements for color choices)
     return (Array.prototype.slice.call(document.querySelectorAll("#container div")));
 }
 
