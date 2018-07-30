@@ -1,6 +1,6 @@
 // A number of possible color elements to generate -- setting this to highest possible amount,
 // based on highest difficulty, prevents identical elements from "painting in" after switching to higher difficulty
-// from finished game on lower difficulty; is necessary only until colorChoices has been generated
+// from finished game on lower difficulty; this restriction is necessary only until colorChoices has been generated
 let numberOfColors = 15;
 
 // Create boolean to allow selections
