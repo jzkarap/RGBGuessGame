@@ -73,7 +73,7 @@ button {
     --moz-transition: background .3s;
 }
 
-@media all and (max-width: 2000px) and (min-width:800px) {
+@media all and (min-width:768px) {
     .control-bar {
         height: 50px;
     }
@@ -88,6 +88,24 @@ button {
     }
     #container {
         max-width: 50%;
+        margin: 3% auto;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .color {
+        width: 18%;
+        margin: 1%;
+        padding-bottom: 18%;
+        float: left;
+        border-radius: 50%;
+        transition: background .4s;
+        --webkit-transition: background .4s;
+        --moz-transition: background .4s;
+    }
+
+    #container {
+        max-width: 98%;
         margin: 3% auto;
     }
 }
