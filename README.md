@@ -6,4 +6,6 @@ RGBGuessGame tasks players with finding the color which matches a given RGB valu
 
 To add:
 - Keep an average of guesses-to-win per play session
-- Increase size of color elements for mobile (change rows to be vertical)
+
+Mobile: <br>
+<img src="https://github.com/jzkarap/RGBGuessGame/blob/master/RGBGameMobile.gif?raw=true">
